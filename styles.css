@@ -134,7 +134,8 @@ footer {
 }
 
 .news-card img {
-  width: 326px;
+  max-width: 326px;
+  width: 100%;
   max-height: 217px;
   margin-bottom: 10px;
 }
@@ -322,11 +323,9 @@ h2 {
     align-items: center;
   }
 
-  h2 {
-    order: 1;
-  }
-
-  img {
-    order: 2;
+  .exhibition-container img,
+  .exhibition-cards-text {
+    max-width: 750px;
+    width: 100%;
   }
 }
