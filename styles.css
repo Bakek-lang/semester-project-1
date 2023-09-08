@@ -238,7 +238,7 @@ h2 {
 
 /*  EXHIBITION PAGE */
 
-.exhibition-container img {
+.exhibition-cards img {
   border-radius: 15px;
   max-width: 440px;
   width: 100%;
@@ -280,6 +280,82 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* GET INVOLVED PAGE */
+
+.involved-cards {
+  background-color: var(--white);
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+}
+
+.involved-cards img {
+  max-width: 300px;
+  border-radius: 15px;
+  align-self: center;
+}
+
+.involved-cards-text {
+  max-width: 450px;
+}
+
+/*  EXPLORE PAGE  */
+
+.explore-card {
+  display: flex;
+  gap: 20px;
+}
+
+.subtitle-explore {
+  text-decoration: underline;
+  font-size: 24px;
+}
+
+/* VISIT PAGE */
+
+.location-card {
+  background-color: var(--white);
+  border-radius: 25px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+}
+
+.location-card img {
+  border-radius: 25px 25px 0px 0px;
+  max-height: 300px;
+  height: 100%;
+  max-width: 500px;
+  width: 100%;
+}
+
+.location-card p {
+  max-width: 80%;
+}
+
+.location-card h2 {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.address-visit {
+  display: flex;
+}
+
+.accessibility {
+  padding-bottom: 0px;
+}
+
+.accessibility img {
+  border-radius: 0px 0px 25px 25px;
 }
 
 /* HOMEPAGE MEDIA QUERIES */
