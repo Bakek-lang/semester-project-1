@@ -501,7 +501,7 @@ h2 {
 }
 
 .opening p {
-  font-size: 25px;
+  font-size: 19px;
 }
 
 .opening h2,
@@ -509,16 +509,12 @@ h2 {
   font-size: 34px;
 }
 
-.closed-red {
-  color: red;
-}
-
 .shop,
 .price,
 .cafe section,
 .accessibility section {
   padding: 40px 20px 60px 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .price {
@@ -529,7 +525,6 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 100%;
-  font-size: 28px;
 }
 
 .group-price {
@@ -619,10 +614,6 @@ h2 {
 
   .accessibility {
     grid-row: 4 / 5;
-  }
-
-  .opening p {
-    font-size: 20px;
   }
 }
 
