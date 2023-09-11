@@ -90,17 +90,13 @@ img {
   max-width: 100%;
 }
 
-/* nav a:not(:last-child) {
-  margin-right: 10px;
-} */
-
 nav a {
   text-decoration: none;
   color: var(--black);
   white-space: nowrap;
 }
 
-/* other stuff */
+/* hamburger meny */
 
 /* FOOTER */
 footer {
