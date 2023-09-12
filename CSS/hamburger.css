@@ -1,0 +1,36 @@
+/* HAMBURGER MENU */
+
+#menu-checkbox {
+  opacity: 0;
+}
+
+.menu-item {
+  padding: 15px 30px;
+  color: var(--black);
+}
+
+.hamburger-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  visibility: hidden;
+  width: 200px;
+
+  padding: 10px 0;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}

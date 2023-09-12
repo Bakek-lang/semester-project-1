@@ -1,0 +1,22 @@
+/* DEFAULT */
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #0054a3;
+  --light-blue: #8ba7c2;
+  --white: #fff;
+  --black: #000;
+  --background-color: #e4d1d1;
+
+  --font-Signika: "Signika", sans-serif;
+  --font-Roboto: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-Roboto);
+  background-color: var(--background-color);
+}

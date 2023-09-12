@@ -1,0 +1,97 @@
+/* FLEX */
+
+body,
+.header,
+header,
+nav,
+.dropdown-menu,
+.footer,
+.news-section,
+.news-card,
+.homepage-main,
+.icons-container,
+.index-icons,
+.our-aim-container,
+.our-aim,
+.exhibition-container,
+.exhibition-cards,
+.exhibition-main,
+.exhibition-cards-text,
+.support-card,
+.explore-card,
+.accessibility,
+.biggy,
+.location-text,
+.accessibility div,
+.visit-address,
+.explore-card,
+.cafe div,
+.opening-container,
+.price-info,
+.money-price {
+  display: flex;
+}
+
+body,
+.dropdown-menu,
+.news-card,
+.homepage-main,
+.index-icons,
+.our-aim,
+.exhibition-container,
+.exhibition-main,
+.exhibition-cards-text,
+.support-card,
+.accessibility,
+.biggy,
+.location-text,
+.visit-address,
+.explore-card,
+.price-info,
+.money-price {
+  flex-direction: column;
+}
+
+body,
+.header,
+nav,
+.footer,
+.news-section,
+.news-card,
+.index-icons,
+.our-aim,
+.exhibition-cards-text,
+.explore-card,
+.price-info,
+.money-price {
+  align-items: center;
+}
+
+header,
+.footer,
+.homepage-main,
+.icons-container,
+.exhibition-main,
+.opening-container,
+.price-info,
+.money-price {
+  justify-content: center;
+}
+
+.footer,
+.news-section {
+  flex-wrap: wrap;
+}
+
+.reverse-card {
+  flex-direction: row-reverse;
+}
+
+.visit-address {
+  align-items: flex-start;
+}
+
+.accessibility div,
+.accessibility section {
+  flex: 1;
+}

@@ -1,0 +1,33 @@
+/* PADDING */
+
+.footer {
+  padding: 10px 20px;
+}
+
+.exhibition-cards {
+  padding: 42px 55px;
+}
+
+.shop,
+.price,
+.cafe section,
+.accessibility section,
+.group-price,
+.opening {
+  padding: 40px 20px 60px 20px;
+}
+
+.header {
+  padding: 0px 20px;
+}
+
+.icons-container {
+  padding: 50px 0px;
+}
+
+.support-card,
+.location-text,
+.support-card h2,
+.news-card {
+  padding: 20px;
+}

@@ -1,0 +1,58 @@
+/* FONTS */
+
+a,
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-Signika);
+}
+
+h4,
+.support-card p,
+footer,
+.homepage-subtitle,
+.subtitle-explore {
+  font-size: 22px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.opening p,
+.shop,
+.price,
+.cafe section,
+.accessibility section {
+  font-size: 18px;
+}
+
+.opening h2,
+.price h2,
+h2,
+header,
+h3,
+.location-card h2,
+.explore-card h2 {
+  font-size: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.support-card h2,
+.location-text h2,
+.cafe h2,
+.accessibility h2,
+.group-price {
+  text-align: center;
+}
+
+.line-break::after,
+.line-break::before {
+  content: "\A";
+  white-space: pre;
+}

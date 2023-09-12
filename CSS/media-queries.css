@@ -1,0 +1,151 @@
+/* MEDIA QUERIES */
+
+@media (max-width: 1150px) {
+  .header {
+    gap: 0px;
+    margin-left: 50px;
+  }
+
+  #menu-checkbox:checked ~ .dropdown-menu {
+    visibility: visible;
+  }
+
+  nav {
+    display: none;
+  }
+
+  /*  HOMEPAGE */
+  .news-section {
+    flex-direction: column;
+  }
+
+  h3 {
+    align-self: center;
+  }
+
+  .hidden {
+    display: block;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .our-aim-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main {
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 100%;
+  }
+
+  /* EXHIBITION PAGE MEDIA QUERIES */
+
+  .exhibition-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exhibition-container img,
+  .exhibition-cards-text {
+    max-width: 750px;
+    width: 100%;
+  }
+
+  /* VISIT PAGE MEDIA */
+
+  .grid-container-visit {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .biggy {
+    grid-row: 2 / 3;
+    grid-column: 1 / -1;
+  }
+
+  .price {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+  }
+
+  .opening {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+  }
+
+  .accessibility {
+    grid-row: 4 / 5;
+  }
+}
+
+@media (max-width: 700px) {
+  /* VISIT PAGE */
+  .grid-container-visit {
+    grid-template-columns: 1fr;
+  }
+
+  .biggy {
+    grid-row: 3 / 4;
+  }
+
+  .price {
+    grid-row: 1 / 2;
+  }
+
+  .opening {
+    grid-row: 2 / 3;
+  }
+
+  .shop {
+    grid-row: 4 / 5;
+  }
+
+  .cafe {
+    grid-row: 5 / 6;
+  }
+
+  .accessibility {
+    grid-row: 6 / 7;
+  }
+
+  .biggy,
+  .price,
+  .opening,
+  .shop,
+  .cafe {
+    grid-column: 1 / -1;
+  }
+
+  /* GET INVOLVED PAGE */
+
+  .involved-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .support,
+  .volunteer,
+  .internship {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 920px) {
+  .location-footer,
+  .socials-footer {
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 635px) {
+  .location-footer,
+  .socials-footer {
+    margin-right: 0px;
+  }
+
+  .news-card p {
+    font-size: 14px;
+  }
+}

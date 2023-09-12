@@ -1,0 +1,147 @@
+/* LAYOUT */
+
+/* border */
+
+.news-section img,
+.news-card,
+.location-card,
+.explore-card {
+  border-radius: 25px;
+}
+
+.icons-container {
+  border-bottom: solid 1px var(--black);
+}
+
+.astronaut,
+.exhibition-cards img,
+.exhibition-cards,
+.support-card,
+.involved-cards img {
+  border-radius: 15px;
+}
+
+.biggy img {
+  border-radius: 25px 25px 0px 0px;
+}
+
+.accessibility img,
+.cafe img {
+  border-radius: 0px 0px 25px 25px;
+}
+
+.price {
+  border: solid 8px var(--light-blue);
+}
+
+/* gap */
+
+.header,
+.involved-cards {
+  gap: 40px;
+}
+
+nav {
+  gap: 1.5em;
+}
+
+.footer,
+.opening-container {
+  gap: 50px;
+}
+
+.icons-container {
+  gap: 70px;
+}
+
+.our-aim-container {
+  gap: 5px;
+}
+
+.exhibition-cards,
+.grid-container-visit,
+.location-text {
+  gap: 30px;
+}
+
+.explore-card {
+  gap: 20px;
+}
+
+.opening-day,
+.opening-hour,
+.our-aim,
+.index-icons,
+.news-section {
+  gap: 10px;
+}
+
+/* width and height */
+
+.header {
+  max-width: 1450px;
+}
+
+.news-card img {
+  max-width: 326px;
+  max-height: 217px;
+}
+
+header {
+  width: 100vw;
+}
+
+.logo-desktop {
+  width: 250px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  width: 100vw;
+}
+
+.news-card img,
+.astronaut,
+.exhibition-cards img,
+.exhibition-cards,
+.accessibility img,
+.biggy img,
+.cafe img,
+.price-container {
+  width: 100%;
+}
+
+.news-card {
+  max-height: 440px;
+  max-width: 370px;
+  height: 392px;
+}
+
+.homepage-main,
+.exhibition-main {
+  max-width: 1150px;
+}
+
+.astronaut,
+.our-aim {
+  max-width: 750px;
+}
+
+.exhibition-cards img {
+  max-width: 440px;
+}
+
+.volunteer img {
+  max-height: 290px;
+}
+
+.biggy img {
+  max-height: 500px;
+}
+
+.exhibition-main h1 {
+  align-self: center;
+}
