@@ -98,6 +98,48 @@ nav a {
 
 /* hamburger meny */
 
+#menu-checkbox {
+  opacity: 0;
+}
+
+.hamburger-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 70px;
+  right: 0px;
+  visibility: hidden;
+  width: 200px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+}
+
+.menu-item {
+  padding: 15px 30px;
+  color: var(--black);
+}
+
+.active-nav {
+  color: var(--blue);
+}
+
+.hover-nav:hover {
+  color: var(--blue);
+  font-weight: bold;
+}
+
 /* FOOTER */
 footer {
   font-size: 20px;
@@ -542,6 +584,15 @@ h2 {
 
 /* HOMEPAGE MEDIA QUERIES */
 @media (max-width: 1150px) {
+  .header {
+    gap: 0px;
+    margin-left: 50px;
+  }
+
+  #menu-checkbox:checked ~ .dropdown-menu {
+    visibility: visible;
+  }
+
   nav {
     display: none;
   }
@@ -675,5 +726,9 @@ h2 {
   .location-footer,
   .socials-footer {
     margin-right: 0px;
+  }
+
+  .news-card p {
+    font-size: 14px;
   }
 }
