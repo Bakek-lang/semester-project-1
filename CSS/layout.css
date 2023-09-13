@@ -64,15 +64,15 @@ nav {
   gap: 30px;
 }
 
-.explore-card {
+.explore-card,
+.news-section {
   gap: 20px;
 }
 
 .opening-day,
 .opening-hour,
 .our-aim,
-.index-icons,
-.news-section {
+.index-icons {
   gap: 10px;
 }
 

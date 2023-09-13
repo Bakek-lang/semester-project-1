@@ -10,12 +10,15 @@
     visibility: visible;
   }
 
-  nav {
+  nav,
+  .show {
     display: none;
   }
 
   /*  HOMEPAGE */
-  .news-section {
+  .news-section,
+  .our-aim-container,
+  .exhibition-cards {
     flex-direction: column;
   }
 
@@ -27,12 +30,8 @@
     display: block;
   }
 
-  .show {
-    display: none;
-  }
-
-  .our-aim-container {
-    flex-direction: column;
+  .our-aim-container,
+  .exhibition-cards {
     align-items: center;
   }
 
@@ -40,13 +39,6 @@
     margin-left: 50px;
     margin-right: 50px;
     max-width: 100%;
-  }
-
-  /* EXHIBITION PAGE MEDIA QUERIES */
-
-  .exhibition-cards {
-    flex-direction: column;
-    align-items: center;
   }
 
   .exhibition-container img,
@@ -109,6 +101,7 @@
 
   .accessibility {
     grid-row: 6 / 7;
+    grid-column: 1 / -1;
   }
 
   .biggy,
