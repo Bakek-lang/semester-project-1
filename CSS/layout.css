@@ -87,8 +87,9 @@ nav {
   max-height: 217px;
 }
 
-header {
-  width: 100vw;
+header,
+footer {
+  width: 100%;
 }
 
 .logo-desktop {
@@ -97,10 +98,6 @@ header {
 
 img {
   max-width: 100%;
-}
-
-footer {
-  width: 100vw;
 }
 
 .news-card img,
