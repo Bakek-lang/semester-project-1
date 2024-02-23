@@ -7,6 +7,13 @@ Welcome to the GitHub repository for the Community Science Museum website. This 
 - **Visit Information**
 - **Volunteer/Internships**
 
+## Live site
+
+Semester Project 1
+
+Netlify link:
+https://semester-project-1-hb.netlify.app/
+
 ## Description
 
 This project aimed to create a comprehensive and informative website for a fictional Community Science Museum, designed to attract visitors and encourage community involvement. It showcases my ability to develop a user-friendly, informative static website, focusing on accessibility and engaging content.
@@ -69,11 +76,3 @@ Thank you for your interest in contributing to this project!
 ## Contact
 
 [My LinkedIn page](https://www.linkedin.com/in/henrik-bakke-76b716294)
-
-
-## Live site
-
-Semester Project 1
-
-Netlify link:
-https://semester-project-1-hb.netlify.app/
